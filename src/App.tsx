@@ -5,6 +5,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import WebApp from "@twa-dev/sdk";
 
+console.log(WebApp.version);
+
 function App() {
   const [count, setCount] = useState(0);
 
