@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import { Analytics, track } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import WebApp from "@twa-dev/sdk";
 
@@ -12,7 +12,6 @@ function App() {
 
   const handleCount = () => {
     setCount((count) => count + 1);
-    track("count");
   };
 
   return (
