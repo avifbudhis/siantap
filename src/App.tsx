@@ -6,7 +6,6 @@ import { Analytics } from "@vercel/analytics/react";
 import {
   WebAppProvider,
   MainButton,
-  BackButton,
   useShowPopup,
 } from "@vkruglikov/react-telegram-web-app";
 
